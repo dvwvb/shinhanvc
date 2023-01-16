@@ -1,0 +1,119 @@
+/* .sub_img {height: 500px;display: table;width: 1920px;position: relative; margin: 0 auto; padding: 95px 0;} */
+.sub_img {height: 500px;display: table;width: 100%; position: relative; margin: 0 auto; padding: 195px 0 95px;}
+.sub_img h5{ font-size: 20px; color:#fff; margin: 0;}
+.sub_img .title{ font-size: 48px; color:#fff; margin-top: 30px;line-height: 1.2em;}
+.sub_img ul{margin-top: 150px;}
+.sub_img ul li{font-size: 20px; display: inline-block; padding-right: 120px;}
+.sub_img ul li:last-of-type{padding-right: 0; margin-bottom: 0;}
+.sub_img ul li a{color:rgba(255, 255, 255, 0.7); text-decoration: none;display: block; transition: color .2s;}
+.sub_img ul li a::after{content: ''; display: block; width: 155px; height: 3px; background: rgba(255, 255, 255, 0.5); margin-top: 15px; transition: background .2s;}
+.sub_img ul li.on a{color:#fff}
+.sub_img ul li.on a::after{background: #fff}
+.sub_img ul li a:hover, .sub_img ul li a:focus, .sub_img ul li a:active{color:#fff;}
+.sub_img ul li a:hover::after, .sub_img ul li a:focus::after, .sub_img ul li a:active::after{background:#fff;}
+.sub_img ul.team li{padding-right: 50px;}
+:lang(en) .sub_img ul.team li{padding-right: 40px;}
+:lang(en) .sub_img ul.team li a::after { width: 170px;}
+
+.subWrap {padding: 150px 0;background: #fff;}
+
+.wrap {width: 1300px; margin: 0 auto; position: relative}
+
+.sub_ct{padding: 115px 0;}
+.sub_ct:first-of-type{padding-top: 0;}
+.sub_ct:last-of-type{padding-bottom: 0;}
+
+.pagination_ui {margin-top: 80px;}
+.pagination_ui ul{display: table; margin: 0 auto;}
+.pagination_ui ul li{display: table; width:48px; height: 48px; margin:0 5px; float: left;}
+.pagination_ui ul li a{font-size: 20px; line-height: 1.5em; color:#1C1C1C; height: 100%; display: table-cell; vertical-align: middle; text-decoration: none; transition: background .4s;}
+.pagination_ui ul li .on{background:#056BBB !important; color:#fff !important;}
+.pagination_ui ul li a:hover, .pagination_ui ul li a:focus, .pagination_ui ul li a:active{background:#ccc;}
+
+footer{margin-top: 0;}
+
+@media screen and (max-width:1919px) {
+	.sub_img {width: 100%;}
+}
+
+@media screen and (max-width:1299px) {
+	.subWrap{padding: 180px 0;}
+	
+	.sub_ct{ padding: 100px 0;}
+	
+	.sub_img h5{ font-size: 18px;}
+	.sub_img .title{font-size: 44px;}
+	.sub_img ul li{padding-right: 90px; font-size: 18px; margin-bottom: 30px;}
+	.sub_img ul li a::after{width:140px;}
+	
+	.wrap {width: 96%;margin: 0 auto;position: relative}
+}
+
+@media screen and (max-width:1199px) {
+	.subWrap{padding: 160px 0;}
+	
+	.sub_ct{ padding: 90px 0;}
+	
+	.sub_img{padding: 120px 0;}
+	.sub_img ul li{padding-right: 60px; font-size: 17px;}
+	.sub_img ul li a::after{width:130px;}
+}
+
+@media screen and (max-width:1000px) {
+	.sub_img ul{width: 325px;}
+	.sub_img ul li:nth-of-type(2n + 2){padding-right: 0;}
+}
+
+@media screen and (max-width: 780px){
+/* 	.sub_img {height: 280px;display: table;width: 100%;position: relative;margin-top: 70px}
+	
+	.subWrap {padding: 30px 0;} */
+	.subWrap{padding: 120px 0;}
+	
+	.sub_ct{ padding: 70px 0;}
+	
+	.sub_img{height: 550px; padding: 0; padding-top: 150px; padding-bottom: 40px;}
+	.sub_img h5{ font-size: 16px;}
+	.sub_img .title{font-size: 40px;}
+	.sub_img ul{width:295px; margin-top: 100px;}
+	.sub_img ul li{padding-right: 50px; font-size: 16px; margin-bottom: 30px;}
+	.sub_img ul li a::after{width:120px;}
+	
+	.sub_img ul.team li:nth-of-type(2n+1) {padding-right: 45px;}
+	:lang(en) .sub_img ul.team li a::after { width: 200px;}
+	
+	.wrap {width: 90%;margin: 0 auto;position: relative}
+
+	.pagination_ui {margin-top: 80px;}
+	.pagination_ui ul{display: table; margin: 0 auto;}
+	.pagination_ui ul li{display: table; width:36px; height: 36px; margin:0 1px; float: left;}
+	.pagination_ui ul li a{font-size: 13px; line-height: 1.5em; color:#1C1C1C; height: 100%; display: table-cell; vertical-align: middle; text-decoration: none; transition: background .4s;}
+	.pagination_ui ul li .on{background:#056BBB !important; color:#fff !important;}
+	.pagination_ui ul li a:hover, .pagination_ui ul li a:focus, .pagination_ui ul li a:active{background:#ccc;}
+}
+
+@media screen and (max-width: 620px){
+	.subWrap{padding: 110px 0;}
+	
+	.sub_ct{ padding: 60px 0;}
+	
+	.sub_img h5{ font-size: 15px;}
+	.sub_img .title{font-size: 36px;}
+	.sub_img ul{width:270px;}
+	.sub_img ul li{padding-right: 45px; font-size: 15px; margin-bottom: 20px;}
+	.sub_img ul li a::after{width:110px; margin-top: 5px}
+}
+
+@media screen and (max-width: 520px){
+	.subWrap{padding: 100px 0;}
+	
+	.sub_img h5{ font-size: 14px;}
+	.sub_img .title{font-size: 32px;}
+	.sub_img ul li{font-size: 14px;}
+}
+
+@media screen and (max-width: 420px){
+	.subWrap{padding: 90px 0;}
+	
+	.sub_img .title{font-size: 28px;}
+}

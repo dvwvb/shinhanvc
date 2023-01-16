@@ -1,0 +1,86 @@
+.sub_08 .title{margin-bottom: 60px; font-size: 30px; line-height: 1.5em; color:#000}
+.sub_08 .title span{font-size: 42px;}
+.sub_08 .artWrap{width: 102%; margin-left:-1%; position: relative;}
+.sub_08:nth-of-type(2) .artWrap{margin-top: -4%;}
+.sub_08 .artWrap .article{float: left; width: 23%; margin:0 1%;}
+.sub_08 .artWrap .article:nth-of-type(4) ~ .article{margin-top: 4%;} 
+.sub_08 .artWrap .article a{display: block; text-decoration: none; color:#fff;}
+.sub_08 .artWrap .article .back_img{width: 100%; height: 350px; display: table; padding: 20px;position: relative}
+.sub_08 .artWrap .article .back_img .segment{display: table-cell; vertical-align: bottom;}
+.sub_08 .artWrap .article .back_img .mask60 {position: absolute;top:0;left: 0;height: 100%;width: 100%;display: none}
+.sub_08 .artWrap .article .back_img .segment .name{font-size: 25px; font-weight: 500; line-height: 1.5em;}
+.sub_08 .artWrap .article .back_img .segment .position{font-size: 19px; font-weight: 300; line-height: 1.5em;}
+
+.sub_08 .artWrap .panelWrap{position: absolute; left: 0; right: 0; display: none;}
+.sub_08 .artWrap .panelWrap .panel-body{}
+.sub_08 .artWrap .panelWrap .panel-body .top{ padding: 15px 0; position: relative;}
+.sub_08 .artWrap .panelWrap .panel-body .top h5{font-size: 42px; line-height: 1.5em; color:#1C1C1C; margin:0;}
+.sub_08 .artWrap .panelWrap .panel-body .top h5 span:last-of-type{font-size: 25px; line-height: 1.5em; color:#1C1C1C; font-weight: 400;}
+.sub_08 .artWrap .panelWrap .panel-body .top button{position: absolute; right: 0; top: 0; bottom:0; margin:auto; width: 30px; height: 30px; background: transparent; border: none; padding: 0;}
+.sub_08 .artWrap .panelWrap .panel-body .top button::before, .sub_08 .artWrap .panelWrap .panel-body .top button::after{content: ""; display: block; width: 100%; height: 2px; background-color: #333; backface-visibility: hidden; border-radius: 2px;}
+.sub_08 .artWrap .panelWrap .panel-body .top button::before{ transform: rotate(45deg) translate(-1px, 0px);}
+.sub_08 .artWrap .panelWrap .panel-body .top button::after{	 transform: rotate(-45deg) translate(1px, -2px);}
+.sub_08 .artWrap .panelWrap .panel-body .middle{padding-top: 40px; padding-bottom:20px; border-top:3px solid #1C1C1C;}
+.sub_08 .artWrap .panelWrap .panel-body .middle .text{font-size: 20px; letter-spacing: -.04em; line-height: 1.7em; font-weight: 400; color:#1C1C1C}
+.noDetails .sub_08 .artWrap .article a {pointer-events: none;}
+
+@media screen and (max-width:1299px) {
+	
+}
+
+@media screen and (max-width:1199px) {
+	.sub_08 .title{font-size: 28px;}
+	.sub_08 .title span{font-size: 38px;}
+	
+	.sub_08 .artWrap .panelWrap .panel-body .top h5{font-size: 38px;}
+	.sub_08 .artWrap .panelWrap .panel-body .top h5 span:last-of-type{font-size: 22px;}
+	.sub_08 .artWrap .panelWrap .panel-body .middle{padding-top: 40px; padding-bottom:20px;}
+	.sub_08 .artWrap .panelWrap .panel-body .middle .text{font-size: 18px;}
+}
+
+@media screen and (max-width:1000px) {
+	
+}
+
+@media screen and (max-width:780px){
+	.sub_08 .title{font-size: 24px; margin-bottom: 40px;}
+	.sub_08 .title span{font-size: 34px;}
+	
+	.sub_08 .artWrap .panelWrap .panel-body .top h5{font-size: 34px;}
+	.sub_08 .artWrap .panelWrap .panel-body .top h5 span:last-of-type{font-size: 20px;}
+	.sub_08 .artWrap .panelWrap .panel-body .top button{width: 20px; height: 20px;}
+	.sub_08 .artWrap .panelWrap .panel-body .middle{padding-top: 30px; padding-bottom:15px;}
+	.sub_08 .artWrap .panelWrap .panel-body .middle .text{font-size: 16px;}
+}
+
+@media screen and (max-width:620px) {
+	.sub_08 .title{font-size: 20px;}
+	.sub_08 .title span{font-size: 30px;}
+	
+	.sub_08 .artWrap .panelWrap .panel-body .top h5{font-size: 30px;}
+	.sub_08 .artWrap .panelWrap .panel-body .top h5 span:last-of-type{font-size: 18px;}
+	.sub_08 .artWrap .panelWrap .panel-body .top button{width: 18px; height: 18px;}
+	.sub_08 .artWrap .panelWrap .panel-body .middle{padding-top: 30px; padding-bottom:15px;}
+	.sub_08 .artWrap .panelWrap .panel-body .middle .text{font-size: 15px;}
+}
+
+@media screen and (max-width:520px) {
+	.sub_08 .artWrap .article{width:100% !important; margin:0 auto !important; float: none;}
+	.sub_08 .artWrap .article:nth-of-type(1) ~ .article{margin-top: 6%!important;}
+	.sub_08 .artWrap .panelWrap{position: static !important;}
+	
+	.sub_08 .artWrap .article a{position: relative; background: #010101}
+	.sub_08 .artWrap .article .back_img{width: 50%; margin-left: auto; height: 250px;}
+	.sub_08 .artWrap .article .back_img .segment{position: absolute;left: 15px; bottom:15px;}
+	
+	.sub_08 .artWrap .panelWrap .panel-body .top h5{font-size: 26px;}
+	.sub_08 .artWrap .panelWrap .panel-body .top h5 span:last-of-type{font-size: 16px;}
+	.sub_08 .artWrap .panelWrap .panel-body .middle{padding-top: 20px; padding-bottom:10px;}
+	.sub_08 .artWrap .panelWrap .panel-body .middle .text{font-size: 14px;}
+}
+
+@media screen and (max-width:420px) {
+	.sub_08 .artWrap .panelWrap .panel-body .top h5{font-size: 22px;}
+	.sub_08 .artWrap .panelWrap .panel-body .top h5 span:last-of-type{font-size: 15px;}
+	.sub_08 .artWrap .panelWrap .panel-body .middle .text{font-size: 13px;}
+}
