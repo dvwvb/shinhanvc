@@ -1,0 +1,121 @@
+.sub_12 .title{font-size: 30px; letter-spacing: -.04em; line-height: 1.9em;}
+.sub_12 .title .bb{ font-size: 42px;}
+.sub_12 .notiWrap{margin-top: 80px; width:100%; display: table; border-top:3px solid #000; border-bottom:1px solid #bdbdbd}
+
+.sub_12 .notiWrap .noticell{display:table-cell;}
+.sub_12 .notiWrap .noticell:nth-of-type(1){width:15%}
+.sub_12 .notiWrap .noticell:nth-of-type(2){width:50%}
+.sub_12 .notiWrap .noticell:nth-of-type(3){width:15%}
+.sub_12 .notiWrap .noticell:nth-of-type(4){width:20%}
+
+
+.sub_12 .notiWrap .notihead{display: table-header-group}
+.sub_12 .notiWrap .notihead .headrow{display: table-row}
+.sub_12 .notiWrap .notihead .headrow .noticell{text-align: center; font-size: 21px; line-height: 1.5em; color:#000; font-family: 'OneShinhanMedium'; padding: 30px 5px;}
+.sub_12 .notiWrap .notibody{display: table-row-group;}
+.sub_12 .notiWrap .notibody a{display: table-row; text-decoration: none; transition: background .4s;}
+.sub_12 .notiWrap .notibody a .noticell{text-align: center; font-family: 'OneShinhanLight'; font-size: 18px; line-height: 1.5em; color:#464545; padding:25px 5px; border-top:1px solid #bdbdbd; transition: color .4s;}
+.sub_12 .notiWrap .notibody a .noticell .inner{text-align: left; overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 1;-webkit-box-orient: vertical;word-wrap:break-word;}
+.sub_12 .notiWrap .notibody a:hover, .sub_12 .notiWrap .notibody a:focus, .sub_12 .notiWrap .notibody a:active{background:#eee;}
+.sub_12 .notiWrap .notibody a:hover .noticell, .sub_12 .notiWrap .notibody a:focus .noticell, .sub_12 .notiWrap .notibody a:active .noticell{color:#222}
+
+.nav_circle li a{width:32px; height: 32px; text-align: center; display: table-cell; vertical-align: middle; color:#666;}
+.nav_circle li a:hover, .nav_circle li a:focus, .nav_circle li a:active{border:none; color:#000; line-height: inherit;}
+.nav_circle li a.on{background: #0a679e; color:#fff !important; text-decoration: none;}
+
+.sub_12 .notiMore{margin-top: 0px;}
+.sub_12 .notiMore .noti_head{padding: 24px 40px; display: table; width:100%;border-top: 2px solid #333}
+.sub_12 .notiMore .noti_head .subject{font-size: 28px; line-height: 1.5em; color:#333;font-weight: 600}
+.sub_12 .notiMore .noti_head .date{font-size: 14px; color:#666;margin-top: 10px}
+.sub_12 .notiMore .noti_body {padding: 40px; border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; overflow: hidden; position: relative; min-height: 300px;}
+.sub_12 .notiMore .noti_body .text{font-size: 16px; letter-spacing: -.04em; line-height: 1.7em; color:#555;}
+.sub_12 .notiMore .noti_body .text img{height: auto; max-width: 100%;}
+.sub_12 .notiMore .noti_file {border-bottom: 1px solid #ddd; padding: 14px 40px;overflow: hidden}
+.sub_12 .notiMore .noti_file label {font-size: 13px;float: left;margin-right: 20px}
+.sub_12 .notiMore .noti_file .file_nm {float: left;}
+.sub_12 .notiMore .noti_file .file_nm a { color: #333;font-size: 14px;text-decoration: underline}
+.sub_12 .notiMore .noti_foot{padding: 40px; text-align: center;}
+.sub_12 .notiMore .noti_foot button{background: transparent;font-weight: 600;font-size: 17px;width: 260px; padding: 17px 20px; border:1px solid #666; text-align: center; color:#444; transition: all .4s;}
+.sub_12 .notiMore .noti_foot button:hover, .sub_12 .notiMore .noti_foot button:focus, .sub_12 .notiMore .noti_foot button:active{background:#fff;border: 1px solid #0a679e;color: #0a679e}
+
+@media screen and (max-width:1199px) {
+    .sub_12 .title .bb{font-size: 38px}
+    .sub_12 .title{ font-size: 26px;}
+
+    .sub_12 .notiWrap .notihead .headrow .noticell{font-size: 19px;}
+    .sub_12 .notiWrap .notibody a .noticell{font-size: 16px;}
+
+    .sub_12 .notiMore .noti_head .subject{font-size: 26px;}
+    .sub_12 .notiMore .noti_head .date{font-size: 17px;}
+    .sub_12 .notiMore .noti_body .text{font-size: 15px;}
+    .sub_12 .notiMore .noti_foot button{font-size: 15px;}
+}
+
+@media screen and (max-width:1000px) {
+
+}
+
+@media screen and (max-width: 780px){
+    .sub_12 .title .bb{font-size: 34px}
+    .sub_12 .title{ font-size: 22px;}
+
+    .sub_12 .notiWrap .notihead .headrow .noticell{font-size: 17px; padding: 20px 5px;}
+    .sub_12 .notiWrap .notibody a .noticell{font-size: 14px; padding:15px 5px;}
+
+    .sub_12 .notiMore .noti_head{padding: 20px 30px;}
+    .sub_12 .notiMore .noti_head .subject{font-size: 24px;}
+    .sub_12 .notiMore .noti_head .date{font-size: 16px;}
+    .sub_12 .notiMore .noti_body{padding: 40px 30px;}
+    .sub_12 .notiMore .noti_body .text{font-size: 14px;}
+    .sub_12 .notiMore .noti_foot{padding: 40px 30px;}
+    .sub_12 .notiMore .noti_file {padding: 14px 30px;}
+    .sub_12 .notiMore .noti_foot button{font-size: 14px;}
+    .sub_12 .notiMore .noti_file label {font-size: 13px;float: none;margin-right: 0;margin-bottom: 5px}
+    .sub_12 .notiMore .noti_file .file_nm {float: none;}
+}
+
+@media screen and (max-width:620px) {
+    .sub_12 .title .bb{font-size: 30px}
+    .sub_12 .title{ font-size: 18px;}
+
+    .sub_12 .respon_noti{overflow-x: auto;}
+    .sub_12 .notiWrap{min-width: 455px;}
+
+    .sub_12 .notiWrap .noticell:nth-of-type(1){width:12%}
+    .sub_12 .notiWrap .noticell:nth-of-type(2){width:59%}
+    .sub_12 .notiWrap .noticell:nth-of-type(3){width:12%}
+    .sub_12 .notiWrap .noticell:nth-of-type(4){width:17%}
+
+    .sub_12 .notiWrap .notihead .headrow .noticell{font-size: 15px;}
+    .sub_12 .notiWrap .notibody a .noticell{font-size: 12px;}
+
+    .sub_12 .notiMore .noti_head{padding: 20px 30px;}
+    .sub_12 .notiMore .noti_head .subject{font-size: 22px;}
+    .sub_12 .notiMore .noti_head .date{font-size: 14px;}
+    .sub_12 .notiMore .noti_body{padding: 40px 30px;}
+    .sub_12 .notiMore .noti_body .text{font-size: 12px;}
+    .sub_12 .notiMore .noti_foot{padding: 40px 30px;}
+    .sub_12 .notiMore .noti_file {padding: 14px 30px;}
+    .sub_12 .notiMore .noti_foot button{font-size: 12px;}
+}
+
+@media screen and (max-width:520px) {
+    .sub_12 .title .bb{font-size: 26px}
+    .sub_12 .title{ font-size: 16px;}
+
+    .sub_12 .notiMore .noti_head{padding: 20px;}
+    .sub_12 .notiMore .noti_head .subject{font-size: 20px;}
+    .sub_12 .notiMore .noti_head .date{font-size: 13px;}
+    .sub_12 .notiMore .noti_body{padding: 40px 20px;}
+    .sub_12 .notiMore .noti_body .text{font-size: 11px;}
+    .sub_12 .notiMore .noti_foot{padding: 40px 20px;}
+    .sub_12 .notiMore .noti_file {padding: 14px 20px;}
+    .sub_12 .notiMore .noti_foot button{font-size: 11px; min-width: 80px;}
+
+    .sub_12 .notiMore .noti_foot button {width: 160px}
+}
+
+@media screen and (max-width:420px) {
+    .sub_12 .title .bb{font-size: 24px}
+    .sub_12 .title{ font-size: 14px;}
+}
